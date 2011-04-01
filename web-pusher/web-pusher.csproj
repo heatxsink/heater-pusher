@@ -42,7 +42,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="App.default.config" />
     <None Include="App.config">
       <DeployService-Deploy>true</DeployService-Deploy>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
