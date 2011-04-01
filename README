@@ -3,3 +3,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is a quickly hacked application that invokes a push script when files are modified in a set of paths.
+
+FYI
+~~~
+It's only been run and tested on OSX on Mono using MonoDevelop to compile the application.
