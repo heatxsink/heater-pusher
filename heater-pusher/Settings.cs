@@ -2,13 +2,13 @@ using System;
 using System.Configuration;
 using System.Collections.Specialized;
 
-namespace webpusher
+namespace Heater.Pusher
 {
 	public class Settings
 	{	
 		public static string WatcherPath { get; private set; }
-	        public static string WatcherPaths { get; private set; }
-        	public static string WatcherFilters { get; private set; }
+	    public static string WatcherPaths { get; private set; }
+       	public static string WatcherFilters { get; private set; }
 		public static string ScriptWorkingDirectory { get; private set; }
 		public static string ScriptToHook { get; private set; }
 		public static bool DebugFlag { get; private set; }

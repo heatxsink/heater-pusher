@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-pusher", "web-pusher\web-pusher.csproj", "{0BFEBA8C-6300-4313-A2D5-3B8B15827C70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heater-pusher", "heater-pusher\heater-pusher.csproj", "{0BFEBA8C-6300-4313-A2D5-3B8B15827C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{0BFEBA8C-6300-4313-A2D5-3B8B15827C70}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = web-pusher\web-pusher.csproj
+		StartupItem = heater-pusher\heater-pusher.csproj
 	EndGlobalSection
 EndGlobal

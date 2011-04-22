@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Diagnostics;
 
-namespace webpusher
+namespace Heater.Pusher
 {
 	class MainClass
 	{
