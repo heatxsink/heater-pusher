@@ -21,7 +21,7 @@ namespace Heater.Pusher
 			WatcherFilters = GetOrEmpty("watcher-filters", settings);
 			ScriptWorkingDirectory = GetOrEmpty("script-working-directory", settings);
 			ScriptToHook = GetOrEmpty("script-to-hook", settings);
-			DebugFlag = GetFlag("debug-flag", settings);			
+			DebugFlag = GetFlag("debug-flag", settings);
 		}
 		
 		public static bool GetFlag(string name, NameValueCollection settings)
