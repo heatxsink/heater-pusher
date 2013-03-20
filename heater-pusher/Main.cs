@@ -36,7 +36,7 @@ namespace Heater.Pusher
 			
 			Console.WriteLine("{0} has been created.", args.FullPath);
 		}
-
+		
 		static void watcher_file_changed(Object obj, FileSystemEventArgs args)
 		{
 			string full_path = args.FullPath;
@@ -85,7 +85,7 @@ namespace Heater.Pusher
 			if (Settings.DebugFlag)
 			{
 				Console.WriteLine("standard_output: {0}", stream_output.ReadLine());
-				Console.WriteLine("standard_error: {0}", stream_error.ReadLine());				
+				Console.WriteLine("standard_error: {0}", stream_error.ReadLine());
 			}
 			
 			stream_error.Close();

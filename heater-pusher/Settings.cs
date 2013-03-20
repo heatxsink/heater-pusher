@@ -7,12 +7,12 @@ namespace Heater.Pusher
 	public class Settings
 	{	
 		public static string WatcherPath { get; private set; }
-	    public static string WatcherPaths { get; private set; }
-       	public static string WatcherFilters { get; private set; }
+		public static string WatcherPaths { get; private set; }
+		public static string WatcherFilters { get; private set; }
 		public static string ScriptWorkingDirectory { get; private set; }
 		public static string ScriptToHook { get; private set; }
 		public static bool DebugFlag { get; private set; }
-			
+		
 		static Settings()
 		{
 			NameValueCollection settings = ConfigurationManager.AppSettings;
@@ -23,16 +23,16 @@ namespace Heater.Pusher
 			ScriptToHook = GetOrEmpty("script-to-hook", settings);
 			DebugFlag = GetFlag("debug-flag", settings);			
 		}
-			
+		
 		public static bool GetFlag(string name, NameValueCollection settings)
 		{
 			return GetOrEmpty(name, settings) == "1";
 		}
-
+		
 		public static string GetOrEmpty(string name, NameValueCollection settings)
 		{
 			string return_value = string.Empty;
-				
+			
 			if (ContainsSetting(name, settings))
 			{
 				Console.WriteLine("{0} => {1}", name, settings[name]);
@@ -42,10 +42,10 @@ namespace Heater.Pusher
 			{
 				Console.WriteLine("AppSettings key {0} not found. Returning string.Empty.", name);
 			}
-				
+			
 			return return_value;
 		}
-			
+		
 		public static bool ContainsSetting(string name, NameValueCollection settings)
 		{
 			bool return_value = false;
